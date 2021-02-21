@@ -1,0 +1,119 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+
+<head>
+  <title>CPIT405 Homework1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #border {
+      position: relative;
+    }
+
+    #image {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      border-style: solid;
+      border-color:red;
+    }
+
+    #text {
+      position: absolute;
+      text-align: center;
+      top: 0px;
+      right: 0px;
+    }
+
+    div.b {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    #myList {
+      border-color: green;
+      border-width: 5px;
+      border-style: solid;
+    }
+
+    .eb {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+
+    .info {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+    }
+
+    body {
+      background: rgba(217, 255, 0, 0.884);
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>
+  <div id="border">
+    <span id = "text">
+    <font size="6" face="Arial" color="red"> Welcome to my web page </br>
+      Saleh Waleed Alshememry.</font></span>
+      
+    <img src="bground.PNG" alt="FCIT" style="width:100%;">
+      <span id = "image">
+    <img src="Saleh.PNG" width=130 height=125> </span>
+  </div>
+  </p>
+
+  <a href='index.html'><button type="button">home</button></a>
+  <a href='homework.html'><button type="button">homework</button></a>
+  <a href='semesterProject.html'><button type="button">semster project</button></a>
+
+  <select name="course">
+    <option selected>Courses</option>
+    <option>CPIT-345</option>
+    <option>CPIT-380</option>
+    <option>CPIT-405</option>
+    <option>CPIT-425</option>
+    <option>CPIT-455</option>
+  </select>
+
+  <p>
+  <div class="b">
+    <h2> Saleh Waleed's CPIT 405 Home Page</h2>
+  </div>
+  </p>
+
+  <div id="myList">
+    <ul>
+      <li>
+        <p class="eb">Education Background:</p>
+        <p class="info">Student at King Abdulaziz University. <br>
+          4th year in Faculty of Computing and Information Technology. <br>
+          &emsp;&emsp;&emsp;&emsp;Information Technology[IT] Student. <br>
+          Secondary School Dar AlThakafa School.</p>
+      </li>
+      <li>
+        <span class="eb">Email:</span>
+        <a class="info" href="mailto:salshememry0001@stu.kau.edu.sa">
+          salshememry0001@stu.kau.edu.sa
+        </a>
+      </li>
+      <li>
+        <span class="eb">Hobby:</span>
+        <span class="info">Swimming, Travling, and Camping.</span>
+      </li>
+      <li>
+        <span class="eb">Courses: </span>
+        <span class="info">Huawei Seeds for the future 2020, Amazon
+          Web Services, and Java Programming 1. </span>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
