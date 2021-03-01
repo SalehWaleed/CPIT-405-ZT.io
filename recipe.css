@@ -1,0 +1,85 @@
+h1 {
+    color:#A4A400;
+    background-color: #F0F0F0;
+    font-size: 22pt;
+    text-align: center;
+    font-family:Lucida Sans Unicode, Helvetica, Arial, or any sans-serif;
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.prepare{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:#A4A400;
+    background-color: #F0F0F0;
+    font-size: 18pt;
+    font-family:Lucida Sans Unicode, Helvetica, Arial, or any sans-serif;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#ing {
+    list-style: circle;
+    margin-left: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#steps_font {
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.steps {
+    font-weight: bold;
+}
+
+#after_step {
+    margin-left: 2.4em;
+    font-size: 13.5pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #404040;
+}
+
+#cake {
+    text-decoration: line-through;
+}
+
+div {
+    background-color: #FFFFA8;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comments{
+    font-size: 13.5pt;
+     font-style: italic;
+    margin-left: 2.4em;
+}
+
+.comments_bold {
+    font-weight: bold;
+}
+
+.search {
+    color: darkturquoise;
+    text-decoration: underline;
+}
+
+#last {
+    text-align: right;
+    color: darkturquoise;
+    font-family: monospace;
+}
